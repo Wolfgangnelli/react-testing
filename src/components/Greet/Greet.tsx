@@ -1,14 +1,14 @@
 
 interface Props {
-    message: string
+    name?: string
 }
 
 const Gretting = (props: Props) => {
-    const { message = '' } = props
+    const { name = '' } = props
 
   return (
     <div>
-        <p>{message}</p>
+        <p>Hi {name}</p>
     </div>
   )
 }
