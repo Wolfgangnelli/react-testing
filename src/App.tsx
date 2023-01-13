@@ -19,7 +19,7 @@ function App() {
         >
           Learn React
         </a>
-        <Gretting message="hello" />
+        <Gretting name="Andrew" />
       </header>
     </div>
   );
